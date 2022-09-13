@@ -2,15 +2,15 @@
 #include <stdlib.h>
 /**
  * main - code block
- * Description: print all base 10 number start from 0
+ * Description: display base 10 numbers
  * Return: 0
  */
 int main(void)
 {
-char n = '0';
-while (n <= '9')
+int n = 0;
+while (n < 10)
 {
-putchar(n);
+putchar(48 + n);
 n++;
 }
 putchar('\n');

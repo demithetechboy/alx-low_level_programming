@@ -2,16 +2,16 @@
 #include <stdlib.h>
 /**
  * main - code block
- * Description: print all base 10 number start from 0
+ * Description: display alphabet lowercase in reverse
  * Return: 0
  */
 int main(void)
 {
-char n = '0';
-while (n <= '9')
+char c = 'z';
+while (c >= 'a')
 {
-putchar(n);
-n++;
+putchar(c);
+c--;
 }
 putchar('\n');
 return (0);
