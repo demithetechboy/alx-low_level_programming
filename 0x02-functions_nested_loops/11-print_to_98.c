@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Print_to_98 - Print all natural numbers from input to 98
+ * print_to_98 - Print all natural numbers from input to 98
  * Description: in order
- * print_to_98: The number to brgin at
+ * @n: The number to brgin at
  * Return: 0;
  */
 void print_to_98(int n)
