@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - func code block
+ * jack_bauer - func prints every minutes of the day Jack Bauer, start
  * n from 00:00 to 23:59, min loop counts
  * Return: 0
  */
@@ -20,6 +20,7 @@ _putchar(hours / 10 + '0');
 _putchar(hours_remainder + '0');
 _putchar(':');
 _putchar(minutes / 10 + '0');
+_putchar(mins_remainder + '0');
 minutes++;
 _putchar('\n');
 }
