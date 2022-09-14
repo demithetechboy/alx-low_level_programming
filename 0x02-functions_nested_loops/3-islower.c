@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - code block
- * islower: display a-z
+ * @c: display a-z
  * Return: 0;
  */
 int _islower(int c)
