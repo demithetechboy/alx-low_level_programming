@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - code block
  * Description: display a-z
@@ -9,9 +9,9 @@ int main(void)
 char c = 'a';
 while (c < 'z')
 {
-putchar(c);
+_putchar(c);
 c++;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
