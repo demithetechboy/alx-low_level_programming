@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * Print_to_98 - Print all natural numbers from input to 98
- * in order
+ * Description: in order
  * @n: The number to brgin at
  * Return: 0;
  */
