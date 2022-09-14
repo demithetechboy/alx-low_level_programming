@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * Print_to_98 - Print all natural numbers'
  * in order
