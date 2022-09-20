@@ -3,7 +3,6 @@
 /**
 * _atoi - converts a string to an int
 * @s: the string to be changed
-*
 * Return: the converted int
 */
 
@@ -21,5 +20,5 @@ else if (num > 0)
 break;
 } while (*s++);
 
-return (num * sign);
+return (num *sign);
 }
